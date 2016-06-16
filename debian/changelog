@@ -1,3 +1,9 @@
+squashfs-tools (1:4.3+git20140913-0blankon1) tambora; urgency=medium
+
+  * Resync from https://github.com/plougher/squashfs-tools
+
+ -- dotovr <dotovr@preko>  Thu, 16 Jun 2016 14:23:24 +0700
+
 squashfs-tools (1:4.3-3blankon1) tambora; urgency=medium
 
   * Added patch 0005-fix-phys-due-to-proc.patch 
