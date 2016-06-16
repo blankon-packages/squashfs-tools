@@ -9,7 +9,7 @@ Standards-Version: 3.9.6
 Homepage: http://squashfs.sourceforge.net/
 
 Package: squashfs-tools
-Architecture: linux-any kfreebsd-any
+Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Tool to create and append to squashfs filesystems
  Squashfs is a highly compressed read-only filesystem for Linux. It uses zlib
@@ -24,7 +24,7 @@ Description: Tool to create and append to squashfs filesystems
 Package: squashfs-tools-dbg
 Section: debug
 Priority: extra
-Architecture: linux-any kfreebsd-any
+Architecture: any
 Depends: ${misc:Depends}, squashfs-tools (= ${binary:Version})
 Description: Tool to create and append to squashfs filesystems (debug)
  Squashfs is a highly compressed read-only filesystem for Linux. It uses zlib
